@@ -10,7 +10,9 @@ export default function App() {
 
   return (
     <div>
-      <h1>{jokesStore.jokes}</h1>
+      <h1>{jokesStore.jokes.map((joke) =>{
+        
+      })}</h1>
       <p>Start editing to see some magic happen :)</p>
     </div>
   );

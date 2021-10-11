@@ -11,7 +11,7 @@ const getJokes = async () => {
 export const JokeModel = types.model("Jokes",{
   imgURL: types.optional(types.string, "HERE"),
   // If I want images. 
-  title: types.optional(types.string, "FUNNY")
+  joke: types.optional(types.string, "FUNNY")
 })
 
 export const JokeStore = types.model("JOKEStore",{
