@@ -7,13 +7,12 @@ export default function App() {
   useEffect(() =>{
     jokesStore.fetchJokes()
   },[jokesStore])
-
+console.log(data.response)
   return (
     <div>
-      <h1>{jokesStore.jokes.map((joke) =>{
-        
-      })}</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <h1>{jokesStore.joke}</h1>
+  
+     
     </div>
   );
 }
