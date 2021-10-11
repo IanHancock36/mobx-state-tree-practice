@@ -27,6 +27,9 @@ export const JokeStore = types.model("JOKEStore",{
     }))
     self.setJokes(newJokes)
   }
+// const getJokes: flow(function* (){
+//   const response 
+// })
 
 }))
 
